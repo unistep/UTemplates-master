@@ -1,0 +1,33 @@
+{
+	"OnErrorNotify": "+972544719547",
+	"DefaultLanguage": "Hebrew",
+	"RegistrationPolicy": "Admin",
+
+	"TextTablesbk": [
+		{ "Name": "Core_Site_Text_Table" },
+		{ "Name": "Service_Call_Text_Table" },
+		{ "Name": "CallCenter_Text_Table" }
+	],
+	"TextTables": [
+		{ "Name": "Core_Site_Text_Table" }
+	],
+
+	"Databases": [
+		{
+			"DatabaseName": "CoreSite",
+			"ConnectionString": "Data Source=.\\SQLEXPRESS01; Initial Catalog=CoreSite; User ID=sa; Password=Sol12345;"
+		},
+		{
+			"DatabaseName": "De-Facto_DB",
+			"ConnectionString": "Data Source=.\\SQLEXPRESS; Initial Catalog=De-Facto_DB; User ID=sa; Password=Sol12345;"
+		}
+	],
+
+	"Endpoints": [
+		{
+			"EndpointName": "DeFacto4443",
+			"EndpointUrl": "https://defacto-service.com:4443/",
+			"Timeout": 30
+		}
+	]
+}
